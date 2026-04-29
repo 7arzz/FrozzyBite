@@ -101,7 +101,6 @@ const Cart = ({ cart, total, addToCart, removeFromCart, clearCart, config }) => 
               fontWeight: "800",
               transition: 'all 0.3s ease'
             }}
-            onMouseOver={(e) => e.target.style.background = 'var(--accent)'}
             onMouseOver={(e) => { e.target.style.background = 'var(--accent)'; e.target.style.color = 'white'; }}
             onMouseOut={(e) => { e.target.style.background = 'rgba(244, 63, 94, 0.1)'; e.target.style.color = 'var(--accent)'; }}
           >
